@@ -6,7 +6,7 @@
 
 Inspired by a Bilibili video on generative art, I adopted fluid and Processing techniques to emulate classical Chinese ink painting backgrounds. The image, reminiscent of ink dispersed by water, dynamically interacts with mouse movements, diffusing colors like smoke. Such effectiveness reminds me of the classical Chinese brush painting method of drawing. Fluid simulation enhances my projects, evoking mystery and mirroring the misty water effects seen in Monet's 'Saint Georges majeur au crépuscule'.
 
-![image1](/assets/bilibili example.jpg)
+![image1](/assets/bilibili example.jpg)assets\image\bilibili example.jpg
 ![image2](/assets/bilibili example2.jpg )
 
 # Part 2: Coding Technique Exploration
