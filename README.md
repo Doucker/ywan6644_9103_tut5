@@ -16,7 +16,7 @@ I will be using Pixelflow as my library to use. Because this library contains a 
 ![image3](/assets/par2 example.jpg )
 ![image4](/assets/part2 example2.jpg )
 ![image5](/assets/part example3.jpg)
-![image6](/assets/part2 example4.jpg)
+![image6](/assets/san-juan-mountains.avif)
 
 # Example  Code Link：
  https://openprocessing.org/sketch/524608
