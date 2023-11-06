@@ -1,7 +1,6 @@
 let num = 200; // Number of circles
 let vecLocation = []; // Vectors for circle centers' locations
 let vecVelocity = []; // Vectors for circle velocities
-
 let R = [];
 let G = [];
 let B = [];
@@ -19,7 +18,6 @@ function setup() {
   for (let i = 0; i < num; i++) {
     vecLocation[i] = createVector(random(0, width), random(height / 2, height));
     vecVelocity[i] = createVector(20, 1);
-    // Initial color set to orange
     R[i] = 255;
     G[i] = 165;
     B[i] = 0;
@@ -176,6 +174,24 @@ function river() {
     }
   }
 }
+
+    // Check for collision with the top or bottom boundaries
+    if (vecLocation[i].y < 0 || vecLocation[i].y > height) {
+      vecVelocity[i].y *= -1; // Reverse the velocity in the Y direction // Choose color based on condition
+      if (vecLocation[i].y < 0) {
+        // Some color, such as top brown-red
+        R[i] = 182;
+        G[i] = 75;
+        B[i] = 26;
+      } else {
+        // Another color, such as bottom mist blue
+        R[i] = 130;
+        G[i] = 159;
+        B[i] = 196;
+      }
+    }
+  
+
 
 
 
